@@ -22,7 +22,7 @@ RightColor = Color3.fromRGB(255,0,0)
 }
 }
 
-local lib = loadstring(game:HttpGet('https://nexo.notxeneon15.repl.co/nexo/renuilib.lua'))()
+local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/anhtlauncher/nexo-anim-modded-v4/main/renuilib.lua'))()
 function rmesh(a)
 if not (workspace[game.Players.LocalPlayer.Name][a].Handle:FindFirstChild('Mesh') or workspace[game.Players.LocalPlayer.Name][a].Handle:FindFirstChild('SpecialMesh')) then notf('Nexo Animator V4','No mesh found.') return end
 old=game.Players.LocalPlayer.Character
